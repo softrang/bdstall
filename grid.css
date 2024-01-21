@@ -1,0 +1,109 @@
+.container{
+    display:grid;
+    gap:5px;
+
+    grid-template-columns: repeat(12, 1fr);
+    
+    grid-template-areas: 
+    "a a a a a a a a a a a a"
+    "b b b c c c c c c c c c"
+    
+    
+    "d d d d d d d d d d d d"
+    "e e e e e e e e e e e e"
+    "f f f f f f f f f f f f"
+    "g g g g g g g g g g g g"
+
+    "h h h h h h h h h h h h"
+    "i i i i i i i i i i i i"
+    "j j j j j j j j j j j j"
+    "k k k k k k k k k k k k"
+    "l l l l l l l l l l l l"
+    "m m m m m m m m m m m m"
+    "n n n n n n n n n n n n"
+    "z z z z z z z z z z z z"
+    
+}
+.item1{
+   grid-area: a ;
+}
+.item2{
+    grid-area: b ;
+}
+.item3{
+    grid-area: c;
+    
+   
+    
+}
+.item4{
+    grid-area: d;
+}
+.item5{
+    grid-area: e;
+}
+.item6{
+    grid-area: f;
+}
+.item7{
+    grid-area: g;
+}
+.item8{
+    grid-area: h;
+}
+.item9{
+    grid-area: i;
+}
+.item10{
+    grid-area: j;
+}
+.item11{
+    grid-area: k;
+}
+.item12{
+    grid-area: l;
+}
+.item13{
+    grid-area: m;
+}
+
+.item15{
+    grid-area: n;
+}
+
+.itemf{
+    grid-area: z;
+}
+
+.aa{
+    display: grid;
+    gap:0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    
+
+}
+
+.bb{
+    display: grid;
+    column-gap: 10px;
+    row-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(160px,1fr));
+
+}
+
+
+.ee{
+    display: grid;
+    column-gap: 10px;
+    row-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(230px,1fr));
+
+}
+
+.gg{
+    display: grid;
+    column-gap: 10px;
+    row-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(230px,1fr));
+
+}
